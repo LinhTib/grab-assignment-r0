@@ -1,0 +1,202 @@
+#navbar{
+  height: 60px;
+  background-color:white; 
+  position:relative;
+}
+#navbar #logo-left {
+  width: 100px;
+  position: absolute;
+  top: 8px;
+  left: 5%;
+}
+#navbar ul li {
+  display:inline;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 700px;
+  font-family:"Sanomat Grab Web Regular", sans-serif;
+  color:green;
+ }
+#navbar a{
+  color: black;
+  text-decoration:none;
+}
+#navbar a:hover{
+  cursor: pointer; 
+  color: green; 
+  transition-duration: 0.5s;
+}
+
+.grab-pay {
+    position: relative;
+    top: 8px;
+    width: 100px;
+    height: 30px;
+}
+#navbar .dropdown {
+    position: relative;
+    display: inline;
+}
+#navbar .left-menu {
+  position: relative;
+  top: 8px;
+  left: 10%;
+  float: left;
+  margin: 0px;
+ }
+#navbar .right-menu {
+  position: relative;
+  top: 20px;
+  float: right;
+  margin: 0px;
+  font-weight: 400px;
+}
+.drive{
+  padding: 7px;
+  border: solid;
+  border-color: green;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+#banner-1{
+  height:700px;
+  background-color:white;
+  position:relative;
+}
+#banner-1 img{
+  width: 100%;  
+  z-index:1;
+}
+#banner-1 #title{
+  position: absolute;
+  top: 130px;
+  left: 160px;
+  color: white;
+  font-family:"Sanomat Grab Web Bold", sans-serif;
+  font-size:50px;
+  font-weight:600px;
+}
+#banner-1 #offer{
+  position: absolute;
+  top: 350px;
+  left:165px;
+  color: white;
+  z-index: 1;
+  font-size:16px;
+  font-family:"Sanomat Grab Web Regular", sans-serif;
+  font-weight:500px;
+}
+#banner-1 #btn-download{
+  color: white;
+  font-family:"Sanomat Grab Web Regular", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  left: 160px;
+  top: 380px;
+  border: 1px solid green;
+  background-color: green;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+#white-1{
+  height:800px;
+  background-color:white;
+  position: relative;
+}
+#white-1 #how-works{
+  color:#00ba51;
+  position: absolute;
+  font-family: "Sanomat Grab Web Bold", sans-serif;
+  font-size: 41px;
+  left:40%;
+ }
+#white-1 #intro{
+  position: relative;
+  left: 43%;
+  top: 90px;
+  color: black;
+  font-family:"Sanomat Grab Web Regular", sans-serif;
+  font-size: 18px;
+}
+.handphone{
+  height: 560px;
+  position: absolute;
+  left: 30%;
+  top: 225px;
+  z-index: 1;
+}
+.screen{
+  position: absolute;
+  height: 360px;
+  width: 200px;
+  top: 286px;
+  left: 35.13%;
+ }
+#white-1 .step-guide{
+  position: absolute;
+  top:200px;
+  left: 55%;
+  font-size: 20px;
+  color: black;
+  
+}
+#white-1 h4{
+  top: 500px;
+  font-family: "Sanomat Grab Web Bold", sans-serif;
+  color: green;
+  cursor: pointer;
+  ransition-duration: .5s;
+  margin-bottom: 0px;
+  font-weight: 700px;
+}
+#white-1 p{
+  margin-top: 20px;
+  font-family:"Sanomat Grab Web Regular", sans-serif;
+  font-size: 18px;
+}
+#green-1{
+  height: 400px;
+  background-color:black;
+  position: relative;
+}
+#banner-2{
+  height:550px;
+  background-color:white;
+  position: relative;
+}
+#banner-3{
+  height: 450px;
+  background-color: black;
+  position: relative;
+}
+#white-2{
+  height: 1030px;
+  background-color:white;
+  position:relative;
+}
+#green-2{
+  height:560px;
+  background-color:green;
+  position:relative;
+}
+#footer{
+  height:80px;
+  background-color:grey;
+  position:relative;
+}
+#footer h4{
+  font-family: "Sanomat Grab Web Medium", sans-serif;
+  font-size: 20px;
+  left: 20px;
+  position: absolute;
+  top: 0px;
+  color: black;
+}
+#footer .media_icon{
+  display: inline;
+  margin: 10px;
+  position: relative;
+  left: 20%;
+  top: 20px;
+}
